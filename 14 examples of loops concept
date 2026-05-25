@@ -1,0 +1,84 @@
+1.
+chocolates=30
+while chocolates>0:
+    print("chocolates given to children ")
+    chocolates-=1
+
+2.
+chocolates=20
+for i in range(chocolates):
+    if i>=0:
+        print(i)
+
+3.
+l= [1,4,6,7,8,2,3]
+length=len(l)
+for i in range(length):
+    print(i)
+
+4.
+l=1,8,6,4,2,5,7,0
+for i in l:
+    print(i)
+
+5.
+l="hemu"
+for i in range(0,6):
+    print(l)
+
+6.
+   for i in range(1,2):
+       for j in range(1,11):
+        print(f"{i}*{j}={i*j}")
+
+7.
+hareesh_it_industry=["java","python","data analyst","gen ai"]
+for i in hareesh_it_industry:
+    print(i)
+
+8.
+name="python"
+for i in name:
+    print(i)
+
+9.
+i=10
+while i>=0:
+    print(i)
+    i-=1
+
+10.
+for i in range(1,20):
+    if i==5:
+        break
+    print(i)
+
+11.
+i=1
+while i<=15:
+    if i==5:
+        i+=1
+        continue
+    print(i)
+    i+=1
+
+12.
+for i in range(20):
+    if i%3==0:
+        continue
+    print(i)
+
+13.
+crt_pswd="hemu@123"
+while True:
+    password="hemu@123"
+    if password==crt_pswd:
+        print("correct password")
+        break
+    else:
+        print("try again it is wrong password")
+
+14.
+name="rocky"
+for i in name:
+    print(i)
